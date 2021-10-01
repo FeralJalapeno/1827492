@@ -28,7 +28,15 @@ Light Green: #9DC88D
     
     */
 }
-/*all round container stuffs*/
+/*global all round container stuffs*/
+.dark{
+    padding: 15px;
+    background:#39603D;
+    color:#FFFFFF;
+    margin-top: 10px;
+    margin-bottom:10px;
+
+}
 .container{
     width:80%; 
     margin:auto;
@@ -114,7 +122,7 @@ header a:hover{
 #newsletter{
     padding: 15px;
     color: #FFFFFF;
-    background:#9DC88D;
+    background:#39603D;
 }
 #newsletter h1{
     float:left;
@@ -150,6 +158,18 @@ header a:hover{
     width:90px;
 
 }
+/*SIDE BAR*/
+aside#sidebar{
+    float:right;
+    width: 30%;
+    margin-top: 10px;
+}
+/*MAIN COL*/
+article#main-col{
+    float:left;
+    widows: 65%;
+
+}
 footer{
     padding: 20px;
     margin-top:20px ;
@@ -157,3 +177,38 @@ footer{
     
     text-align:center;
 }
+/**Media Queries
+make the site more responsive and change with screen variations**/
+@media(max-width:768px){
+    header #branding,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box,
+    article#main-col,
+    aside#sidebar{
+        float:none;
+        text-align:center;
+        width:100%;
+    }
+
+    header {
+        padding-bottom: 20px;
+
+    }
+    #showcase h1{
+        margin-top: 40px;
+    }
+    #newsletter button{
+        display: block;
+        width: 100%;
+    }
+    #newsletter form input[type="email"]{
+        width:100%;
+        margin-bottom: 5px;
+    }
+}
+    
+        
+    
