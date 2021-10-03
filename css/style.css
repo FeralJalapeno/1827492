@@ -164,11 +164,18 @@ aside#sidebar{
     width: 30%;
     margin-top: 10px;
 }
+aside#sidebar h1{
+    font-family: 'Homemade Apple', cursive;
+}
 /*MAIN COL*/
 article#main-col{
     float:left;
     widows: 65%;
+    
 
+}
+article#main-col h1{
+    font-family: 'Homemade Apple', cursive;
 }
 footer{
     padding: 20px;
