@@ -170,7 +170,8 @@ aside#sidebar h1{
 /*MAIN COL*/
 article#main-col{
     float:left;
-    widows: 65%;
+    width: 65%;
+    
     
 
 }
