@@ -1,0 +1,61 @@
+.card_container{
+    display: flex;
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    background: #39603D;
+    width: 270px;
+    margin: 10px;
+    border-radius: 15px;
+    color:white;
+    text-align: center;
+
+
+
+}
+.card-image{
+    background-color:#F1B24A ;
+    height:200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.car-1{
+    background-image:url('https://i.pinimg.com/564x/ba/f8/77/baf87737708428f661e80412dbd242bf.jpg');
+
+}
+.car-2{
+    background-image:url('https://i.pinimg.com/564x/16/7d/93/167d93e0b48435eb3033a97ed3b7aea9.jpg');
+
+}
+.car-3{
+    background-image:url('https://i.pinimg.com/564x/0d/e4/4a/0de44a0be1043c7d6f6b79d84ac2fe94.jpg');
+
+}
+.card h2{
+    padding: 10px;
+    font-family: 'Homemade Apple', cursive;
+}
+.card a{
+    background-color: #F1B24A;
+    color:white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+.card:hover{
+    background-color: #9DC88D;
+    color: white;
+    cursor: pointer;
+    transform:scale(1.03);
+    transition: all 1s ease;
+}
