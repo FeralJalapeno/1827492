@@ -1,0 +1,33 @@
+<head>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+
+<!--Navigation bar-->
+<div id="nav-placeholder">
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Bitchin'</span> Blogs and Internet Art</h1>
+            </div>
+            <!-- REMEMBER: Don't us an ID unless Imma use it more than once-->
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blogs.html">Blogs</a></li>
+                    <li><a href="art.html">Art</a></li>
+                </ul>
+            </nav>
+        
+        
+        </div>
+    </header>
+</div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+});
+</script>
+<!--end of Navigation bar-->
