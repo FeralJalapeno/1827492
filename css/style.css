@@ -105,10 +105,10 @@ header a:hover{
 
 #showcase{
     min-height:400px;
-    background: url('https://i.pinimg.com/236x/e1/48/4b/e1484b8619264efaa7b7cadb68a8582d.jpg') no-repeat 0 ;
+    
     background-size:1600px 500px;
     text-align: center;
-    color: #FFFFFF;
+    color: #39603D;
 
 }
 #showcase h1{
